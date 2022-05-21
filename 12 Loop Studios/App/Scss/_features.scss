@@ -1,0 +1,118 @@
+.features {
+  $root: &;
+  overflow: hidden;
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    h2 {
+      color: $black;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    a {
+      color: $black;
+      border: 1px solid $black;
+      padding: 20px;
+      text-transform: uppercase;
+      justify-content: center;
+      border: 1px solid $veryDarkGray;
+    }
+
+    a:hover {
+      background-color: $black;
+      color: $white;
+      border-radius: 1px;
+    }
+  }
+  &__imgs {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template:
+      "simg1 simg2 simg3 simg4"
+      "simg5 simg6 simg7 simg8";
+    gap: 10px 10px;
+    justify-content: space-between;
+
+    a:hover {
+      background-color: #ccc;
+      color: #333;
+      opacity: 0.5;
+    }
+
+    .simg1 {
+      background-image: url("../../images/desktop/image-deep-earth.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      grid-area: simg1;
+      box-sizing: border-box;
+    }
+
+    .simg2 {
+      background-image: url("../../images/desktop/image-night-arcade.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      grid-area: simg2;
+      box-sizing: border-box;
+    }
+    .simg3 {
+      background-image: url("../../images/desktop/image-soccer-team.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      grid-area: simg3;
+      box-sizing: border-box;
+    }
+    .simg4 {
+      background-image: url("../../images/desktop/image-grid.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      grid-area: simg4;
+    }
+
+    .simg5 {
+      background-image: url("../../images/desktop/image-from-above.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      grid-area: simg5;
+    }
+
+    .simg6 {
+      background-image: url("../../images/desktop/image-pocket-borealis.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      grid-area: simg6;
+    }
+
+    .simg7 {
+      background-image: url("../../images/desktop/image-curiosity.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      grid-area: simg7;
+    }
+
+    .simg8 {
+      background-image: url("../../images/desktop/image-fisheye.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      grid-area: simg8;
+    }
+  }
+
+  &__subimg {
+    position: relative;
+    a {
+      color: $white;
+    }
+
+    h3 {
+      color: $white;
+      font-weight: normal;
+      letter-spacing: normal;
+      position: absolute;
+      white-space: nowrap;
+      top: 298px;
+      left: 1rem;
+    }
+  }
+}

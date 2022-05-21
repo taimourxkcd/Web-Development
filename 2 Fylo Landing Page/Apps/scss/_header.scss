@@ -1,0 +1,46 @@
+header {
+  position: relative;
+  background-color: $darkBlue;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(
+      circle farthest-side at right,
+      $softBlue,
+      $darkBlue
+    );
+    transform: translateX(44%);
+  }
+
+  nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    z-index: 1;
+    font-family: $primaryFont;
+
+    a,
+    button {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: $white;
+
+      @media #{$mq-1000-up} {
+        font-size: 1rem;
+      }
+    }
+
+    a {
+      @media #{$mq-1000-up} {
+        margin-right: 30px;
+      }
+      margin-right: 15px;
+    }
+  }
+}

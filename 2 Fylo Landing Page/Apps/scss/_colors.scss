@@ -1,0 +1,17 @@
+// Primary Colors
+$softBlue: hsl(243, 86%, 85%); // #BBB8FA
+$veryDarkBlue: hsl(243, 87%, 12%); // #070439
+$white: #ffffff;
+$darkPurple: #08053c;
+$meddarkPurple: #07043b;
+$medPurple: #474149;
+$medPurple: lighten($darkPurple, 5%);
+
+$lightGray: #8b8b8b;
+
+//Accent Colors
+$green: hsl(163, 95%, 43%); // #05d698
+$darkBlue: hsl(243, 58%, 33%); // #282385
+
+//Neutral
+$gray: hsl(0, 0%, 50%); // #808080

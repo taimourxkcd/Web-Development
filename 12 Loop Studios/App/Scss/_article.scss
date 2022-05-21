@@ -1,0 +1,34 @@
+.article {
+  $root: &;
+  height: 100%;
+  margin-bottom: 0rem;
+  overflow: hidden;
+
+  &__img {
+    img {
+      position: relative;
+      top: -2rem;
+      left: 0rem;
+      max-width: auto;
+      max-height: auto;
+    }
+  }
+
+  &__text {
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px;
+    max-width: 47%;
+    max-height: 100%;
+    top: -14rem;
+    left: 33rem;
+    background-color: $white;
+    min-width: 2rem;
+
+    h2 {
+      color: $black;
+      letter-spacing: normal;
+      margin-bottom: 20px;
+    }
+  }
+}
