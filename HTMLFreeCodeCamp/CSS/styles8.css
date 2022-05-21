@@ -1,0 +1,118 @@
+/* font0-size, width-height, pixels */
+
+/*
+h1 {
+  font-size: 60px;
+  width: 200px;
+  height: 300px;
+  background: blue;
+}
+*/
+
+/*  Percent values - relative */
+/*
+.outer {
+  width: 500px;
+  height: 500px;
+  background: blue;
+}
+.inner {
+  width: 100%;
+  height: 50%;
+  background: red;
+}
+*/
+
+/* 
+    em - Relative depends on the parent
+    1em = 16px default browser style
+    1em = base case
+*/
+/*
+.relative {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+div {
+  font-size: 20px;
+}
+*/
+
+/*
+ rem - RELATIVE depends on the root
+ 1rem = 16px default browser style;
+ */
+
+/*
+html {
+  font-size: 32px;
+}
+div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 5rem;
+}
+
+.absolute {
+  font-size: 20px;
+}
+*/
+
+/* vh - height - percent of the screen */
+/* vw - width - percent of the screen */
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
+*/
+
+/* default browser styles and goodle devTools */
+
+/*
+h2 {
+  color: red;
+  font-size: 50px;
+}
+*/
+
+/* 
+calc
+perform math operations 
+mix and match values 
+*/
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
+}

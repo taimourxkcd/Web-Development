@@ -1,0 +1,27 @@
+/* Default Display Property
+Block: Always starts a new block and takes full width
+Inline: Does not start and only take up as much as content space
+Horizontally Center
+ */
+
+body {
+  text-align: center;
+}
+
+.block {
+  background: blue;
+  color: white;
+  width: 150px;
+  margin: 0 auto;
+
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+
+  /* display: inline ; */
+}
+
+.inline {
+  background: red;
+  color: white;
+  /* display: block; */
+}

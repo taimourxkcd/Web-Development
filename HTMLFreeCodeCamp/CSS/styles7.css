@@ -1,0 +1,99 @@
+/* Color properties */
+/* Color Background-Color */
+/* Color BACKGROUND-COLOR */
+
+/* 
+
+#first {
+  color: lightblue;
+  background: chocolate;
+}
+
+#second {
+  color: crimson;
+  background: yellow;
+}
+
+*/
+
+/* color names 140 */
+/* rgb 0-255 */
+
+/* 
+
+#first {
+  color: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
+}
+
+#second {
+  color: rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+
+#third {
+  color: rgb(34, 43, 90);
+  background: rgb(100, 100, 100);
+}
+
+body {
+  background: rgb(190, 23, 56);
+}
+
+*/
+
+/* RGBA 0-1 OPACITY/TRANSPARENCY */
+
+/* 
+#first {
+  color: rgb(100, 43, 23);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#second {
+  color: rgb(134, 23, 23);
+  background: rgba(0, 0, 0, 0.25);
+}
+#third {
+  color: rgb(255, 0, 0);
+  background: rgba(0, 0, 0, 0);
+}
+#four {
+  color: rgb(0, 0, 255);
+  background: rgba(0, 0, 0, 1);
+}
+body {
+  background: rgba(10, 10, 200, 0.7);
+}
+
+*/
+/* 
+HSL
+HEX VALUE #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+            10 11 12 13 14 15 
+            #FF0000
+            #00FF00
+  */
+
+#first {
+  color: #ff0000;
+  background: #000;
+}
+
+#second {
+  color: #fff;
+  background: #317931;
+}
+
+#third {
+  color: #0000ff;
+  background: #d38a75;
+}
+#four {
+  color: #adadad;
+  background: #222222;
+}
+body {
+  background: rgba(10, 10, 200, 0.7);
+}

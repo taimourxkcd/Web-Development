@@ -1,0 +1,32 @@
+/* LAST RULE SPECIFITIY * UNIVERSAL SELECTOR */
+
+/*  
+p {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+*/
+
+/* 
+
+.red {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+*/
+
+p {
+  color: red;
+}
+
+* {
+  color: blue;
+}

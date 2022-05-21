@@ -1,0 +1,38 @@
+/* 
+    THIS SHOULD WORK BUT IDK WHY THIS DOES NOT BUT THE LINK WORKS THOUGH
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"); */
+
+/* font size font family */
+/*
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: verdana;
+}
+*/
+
+/*
+ font-stack generic family
+ serif, sans-serif, cursive, fantasy, monospace
+ */
+
+/*
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+
+/*
+Google fonts
+ */
+
+body {
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
