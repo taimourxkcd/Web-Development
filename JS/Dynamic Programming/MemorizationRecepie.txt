@@ -1,0 +1,11 @@
+1. MAKE IT WORK 
+    * visulaize a problem as a treee
+    * implement the tree using recursion 
+    * test it
+
+2. MAKE IT EFFICIENT 
+    * add a memo object 
+    * add a base case to return memo values 
+    * stored return values into a memo
+
+
