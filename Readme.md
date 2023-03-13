@@ -1,6 +1,3 @@
-# Directory
-cd Projects
-
 # Easy Bank Landing Page
 
 <a href="https://easybanktaimour2.netlify.app/"> Click here to open Easy bank Landing Page</a>
